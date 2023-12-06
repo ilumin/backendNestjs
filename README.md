@@ -9,6 +9,9 @@ npm i
 # copy environment variable
 cp .env-example .env
 
+# run migrate DB
+npm run prisma:deploy
+
 # run
 npm run start:dev
 ```
