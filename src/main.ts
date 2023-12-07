@@ -7,6 +7,8 @@ async function bootstrap() {
 
   app.useGlobalPipes(new ValidationPipe());
 
+  console.log(`service running on ${3000}`);
+
   await app.listen(3000);
 }
 bootstrap();
